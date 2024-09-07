@@ -108,3 +108,30 @@ This energy per spin has the same form as we started with, but is represented in
 
 For $T\xrightarrow[]{}0: \;m\xrightarrow[]{}sgn(h)$, i.e. every one is in the same room in the party problem. Essentially $\frac{E}{N} = \frac{-J_0}{2} - \left|h\right|$
 
+## 2.4 Random Field Ising Model
+
+### 2.4.1 Setup and Calculation:
+
+Now, all $h_i$'s are different.
+
+$$
+\begin{align}
+Z &= \sum_{\mathbf{\sigma}}\int \frac{dz}{\sqrt{\frac{2\pi\beta J_0}{N}}}e^{-\frac{N}{2}\frac{z^2}{\beta J_0}}e^{N(\beta h_i + z)m(\mathbf{\sigma})} \\
+&= \int \frac{dz}{\sqrt{\frac{2\pi\beta J_0}{N}}}e^{-\frac{N}{2}\frac{z^2}{\beta J_0}}\sum_{\mathbf{\sigma}}e^{N\beta h_i + z)m(\mathbf{\sigma})} \\ 
+&= \int \frac{dz}{\sqrt{\frac{2\pi\beta J_0}{N}}}e^{-\frac{N}{2}\frac{z^2}{\beta J_0}}\sum_{\mathbf{\sigma}}e^{\sum_{\sigma{i}}(\beta h_i + z)\sigma_i} \; \left(\because m = \sum_i\sigma_i/N\right) \\
+&=\int \frac{dz}{\sqrt{\frac{2\pi\beta J_0}{N}}}e^{-\frac{N}{2}\frac{z^2}{\beta J_0}}\cdot\Pi_{i}\left[2\cosh(\beta h + z)\right]^N \\
+&= \int \frac{dz}{\sqrt{\frac{2\pi\beta J_0}{N}}}e^{-N\beta f(z)}
+\end{align}
+$$
+where $f(z) = \frac{z^2}{2\beta^2 J_0}  - T\frac{1}{N}\sum_i\ln\left[2\cosh(z+\beta h)\right]$
+
+And, by a similar calculation as before, the **self-consistent equation** for m is:
+
+$$
+\begin{align}
+m &= \frac{1}{N}\sum_i\tanh(\beta J_0 m + \beta h_i)\\
+&=\int dh \hat{P}(h)\tanh(\beta J_0 m + \beta h)\\ \
+\end{align}
+$$
+where $\hat{P}(h) = \frac{1}{N}\sum_i\delta(h-h_i)$ is the *empirical distribution* of $h_i$ OR a *finely binned histogram* of $h_i$.
+If one knows from which distribution $h_i$ have been derived, then for large systems $\hat{P}(h)$ takes the shape of the distribution of $h_i$

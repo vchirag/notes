@@ -112,10 +112,10 @@ $$\begin{align}
 &=\int\frac{dz}{\sqrt{2\pi\beta \frac{J_)}{N}}}e^{-Nf(z)}
 \end{align}
 $$
-where $f(z) = \frac{z^2}{2\beta J_0}  - \ln\left[2\cosh(z+\beta h)\right]$
+where $f(z) = \frac{z^2}{2\beta^2 J_0}  - T\ln\left[2\cosh(z+\beta h)\right]$
 ![[h-s integral.png]]
 
-(*Laplace method/ saddle-point integration*) If now we expand near $f(z^*) := f(z^*) + \frac{1}{2}(z-z^*)^2f^{\prime\prime}(z^*) + \dots$,
+(*Laplace method/ saddle-point integration*) If now we expand near $f(z) := f(z^*) + \frac{1}{2}(z-z^*)^2f^{\prime\prime}(z^*) + \dots$,
 then the integral becomes:
 $$
 \begin{align}

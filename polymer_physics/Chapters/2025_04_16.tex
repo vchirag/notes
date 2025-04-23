@@ -1,12 +1,31 @@
-A biological cell is a conglomerate of many interacting biochemical components organised in sub-units. Recently, it has been established that a cell employs phase separation \cite{alberti_phase_2017} to organise itself spatially and form membrane-less compartments (see Figure \ref{fig:phase_sep}). These membrane-less compartments can adapt to external stress, help regulate genes or even cause some neurodegenerative diseases \cite{dolgin_what_2018, hyman_liquid-liquid_2014}. Hence, it becomes increasingly important to study under what conditions such membrane-less compartments form and function. Estimating their free energies serves as a good starting point.\\
+\section*{Basic Polymer models}
 
-\begin{figure}[h!]	\includegraphics[width=0.25\linewidth]{imgs/intro/phase_sep.png}
-	\caption{Phase separation in nucleoli of X. \textit{laevis}. Adapted from \cite{feric_coexisting_2016, dolgin_how_2024}.}
-	\label{fig:phase_sep}
+Polymers are long chain-like, flexible structures of macromolecules. On large scales, their orientational correleations decay.\\
+
+They can be ``physically" described by tangent vectors along a path. In some coordinate frame where the position of a point along a path $s$ is described by $\mathbf{r}$, the corresponding tangent vector $\mathbf{u}$ is:
+\begin{equation}
+	\mathbf{u} = \frac{d\mathbf{r}(s)}{ds}
+\end{equation}
+
+\begin{figure}[h!]
+	\includegraphics[width=0.4\linewidth]{imgs/2025_04_16/tangent_vector.png}
+	\caption{Schematic of a polymer chain in some reference frame. The path length varies between $0$ and $1$.}
+	\label{fig:tangent_vector}
 \end{figure}
 
-The Flory-Huggins formulation can be used to study the free energies of phase-separating materials. This formulation is often used to study systems with two components \cite{rubinstein_polymer_2003}. Extending it to multiple interacting components is straightforward and allows one to model a cell as numerous phase-separated compartments. However, the dimensionality of the corresponding free energy landscape scales accordingly. Several methods have been developed to study phase coexistence but are still limited to a few components \cite{sch2023, mao_phase_2019}.\\
+Since the orientational correleations are uncorreleated
+\begin{equation}
+	\langle\mathbf{u}(s_1)\mathbf{u}(s_2)\rangle = \mathcal{C}(s_1, s_2)
+\end{equation}
+where $\langle \dots \rangle$ denotes the ensemble average over all the points and $\mathcal{C}$ is a constant function.\\
 
-This report explores methods to sample the free energy landscape of a system with $n$ components and $m$-distinct compartments, whereby a compartment is a spatial domain with constant concentrations of each component. We also propose a general method for systematically reducing the landscape's dimensionality. We illustrate the method in the light of elementary systems but with considerably high dimensionality of the free energy landscape..\\
+\underline{Aim}: To formulate a Hamiltonian for these structures
 
-The remainder of this report is structured as follows: Section 2 briefly outlines the underlying theory of Flory-Huggins' free energy formulation and its extension to multi-phase systems. Following this, the approach of sampling free-energy landscapes with a simple random walk is introduced. We then describe our approach to reduce the dimensions of an $n$-component system. Section 3 shows the results from our methods for particular example systems. Lastly, section 4 discusses further steps in light of the results obtained.
+\subsection*{Discrete Chain Model}
+Assumes a polymer to be made up of balls connected by some threads/springs (see Figure \ref{fig:discrete_chain_model} ). Possible to describe the entire chain configuration by the position of the first bead $\mathbf{r}_1$ and the corresponding bond vectors for the subsequent beads $\mathbf{b}_i, \forall \,i \in \{1, \dots, (N-1)\}$.
+
+\begin{figure}[h!]
+	\includegraphics[width=0.5\linewidth]{imgs/2025_04_16/discrete_chain_model.png}
+	\caption{Schematic of a discrete chain polymer with $N$ beads.}
+	\label{fig:discrete_chain_model}
+\end{figure}

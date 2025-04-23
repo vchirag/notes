@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg21138"
+   sodipodi:docname="discrete_chain_model.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns4="http://www.iki.fi/pav/software/textext/">
+  <sodipodi:namedview
+     id="namedview21140"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-others="false"
+     inkscape:object-nodes="false"
+     inkscape:zoom="0.69098232"
+     inkscape:cx="167.87694"
+     inkscape:cy="25.326263"
+     inkscape:window-width="2256"
+     inkscape:window-height="1463"
+     inkscape:window-x="0"
+     inkscape:window-y="4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs21135">
+    <marker
+       style="overflow:visible;"
+       id="marker38184"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path38182" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker38172"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path38170" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path4135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999;fill-opacity:1"
+       id="path21703"
+       cx="32.123146"
+       cy="66.568146"
+       r="5.7457275"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999"
+       id="path21703-9"
+       cx="57.38306"
+       cy="85.966324"
+       r="5.7457275"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999"
+       id="path21703-1"
+       cx="80.96154"
+       cy="64.457153"
+       r="5.7457275"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999"
+       id="path21703-2"
+       cx="107.93155"
+       cy="47.086609"
+       r="5.7457275"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999"
+       id="path21703-7"
+       cx="159.58987"
+       cy="67.560432"
+       r="5.7457275"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.964999"
+       id="rect22203"
+       width="2.9204597"
+       height="2.638128"
+       x="32.466953"
+       y="102.91074"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 36.109568,71.423881 4.089208,0.354628 0.529872,3.836623 4.117453,-0.433031 0.227394,3.27237 4.18802,-0.309637 -0.498331,3.349094 3.615843,1.263245"
+       id="path22538"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 61.478797,81.428472 1.364211,-3.871215 3.84743,0.444661 0.608541,-4.095194 3.225532,0.596705 0.745645,-4.132724 3.11866,1.318607 2.125893,-3.186014"
+       id="path22538-0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.662127,60.537664 2.009642,-3.578927 3.713637,1.099701 1.30375,-3.929525 3.074856,1.142529 1.445265,-3.942917 2.845423,1.835295 2.64215,-2.772941"
+       id="path22538-9"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.565, 4.52;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 129.01926,54.456925 c 13.27494,5.754704 13.27494,5.754704 13.27494,5.754704"
+       id="path23370"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 113.49775,48.949152 4.76119,-1.297155 -0.1809,3.431881 3.49707,1.089449"
+       id="path23485"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.25524,61.477613 4.76119,-1.297155 -0.1809,3.431881 3.49707,1.089449"
+       id="path23485-3"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="55.730625"
+       y="87.133476"
+       id="text29156-6"><tspan
+         sodipodi:role="line"
+         id="tspan29154-0"
+         style="stroke-width:0.264583"
+         x="55.730625"
+         y="87.133476" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.38457px;line-height:1.25;font-family:sans-serif;stroke-width:0.461536"
+       x="56.063698"
+       y="87.016594"
+       id="text29156-62-2"
+       transform="scale(0.98444479,1.015801)"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan29154-6-3"
+         style="stroke-width:0.461536"
+         x="56.063698"
+         y="87.016594">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.38457px;line-height:1.25;font-family:sans-serif;stroke-width:0.461536"
+       x="29.925083"
+       y="68.229248"
+       id="text29156-62-2-7"
+       transform="scale(0.98444479,1.015801)"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan29154-6-3-5"
+         style="stroke-width:0.461536"
+         x="29.925083"
+         y="68.229248">1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       d="M 33.907081,102.57974 C 31.469205,73.456021 31.469205,73.456021 31.469205,73.456021"
+       id="path38164"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker38172)"
+       d="m 42.536147,65.498302 c 12.539974,9.980459 12.539974,9.980459 12.539974,9.980459"
+       id="path38168"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker38184)"
+       d="M 68.333955,85.19923 C 79.432363,75.620575 79.432363,75.620575 79.432363,75.620575"
+       id="path38180"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
+    <g
+       transform="matrix(0.91361271,0,0,0.91361271,24.162416,82.358307)"
+       ns4:version="1.8.2"
+       ns4:texconverter="pdflatex"
+       ns4:pdfconverter="inkscape"
+       ns4:text="$$\\mathbf{r}_1$$"
+       ns4:preamble="/home/vchirag24/.config/inkscape/extensions/textext/default_packages.tex"
+       ns4:scale="1.0"
+       ns4:alignment="middle center"
+       ns4:stroke-to-path="0"
+       ns4:jacobian_sqrt="0.352778"
+       id="g38359"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <defs
+         id="id-a651fe78-a28a-4bce-a106-df80db7a4cd9">
+        <g
+           id="id-42b21d1e-1698-4351-a227-278456682eb9">
+          <symbol
+             overflow="visible"
+             id="id-ea3bf4ef-78fc-44ee-829d-7e8afa9f1383">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-dcbb18b8-f8d0-4203-995f-a308d0e61cca" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-1045c0c3-b7f4-48aa-83dc-529626471fa5">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.03125,-3.359375 v -1.125 L 0.375,-4.40625 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 V -0.46875 H 0.375 V 0 c 0.34375,-0.015625 0.796875,-0.03125 1.25,-0.03125 0.375,0 1.015625,0 1.375,0.03125 V -0.46875 H 2.140625 v -1.75 c 0,-0.6875 0.234375,-1.90625 1.234375,-1.90625 0,0.015625 -0.1875,0.171875 -0.1875,0.453125 0,0.40625 0.328125,0.609375 0.609375,0.609375 0.296875,0 0.609375,-0.203125 0.609375,-0.609375 0,-0.53125 -0.53125,-0.8125 -1.0625,-0.8125 -0.6875,0 -1.09375,0.5 -1.3125,1.125 z m 0,0"
+               id="id-f901407f-970a-48e4-86bb-de50a2b312b3" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-2bf8b790-45fe-4808-a9f4-a379c94cd705">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-e285c6db-c51f-43aa-9bf5-d6d0f5d4fb86" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-b3dad7e4-caee-4bc8-a2d9-5ed23902a2c0">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 v 0.25 c 0.15625,0 0.625,0 1,-0.1875 v 3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 H 0.8125 V 0 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 V -0.25 H 3.03125 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="id-4e057e0a-f896-4e6a-ad3c-a5041eae175e" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="id-4b98d684-c448-4ab6-8dd7-40052466d7b3"
+         transform="translate(-301.405,-142.236)">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-b40ae497-d26d-47fe-abcb-dd70ca52789c">
+          <g
+             transform="translate(301.03,146.72)"
+             id="g38351">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.03125,-3.359375 v -1.125 L 0.375,-4.40625 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 V -0.46875 H 0.375 V 0 c 0.34375,-0.015625 0.796875,-0.03125 1.25,-0.03125 0.375,0 1.015625,0 1.375,0.03125 V -0.46875 H 2.140625 v -1.75 c 0,-0.6875 0.234375,-1.90625 1.234375,-1.90625 0,0.015625 -0.1875,0.171875 -0.1875,0.453125 0,0.40625 0.328125,0.609375 0.609375,0.609375 0.296875,0 0.609375,-0.203125 0.609375,-0.609375 0,-0.53125 -0.53125,-0.8125 -1.0625,-0.8125 -0.6875,0 -1.09375,0.5 -1.3125,1.125 z m 0,0"
+               id="id-861e77f6-1287-4a81-9d65-429611304460" />
+          </g>
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-cd011ac6-0609-41ad-ae9c-f1760f789c60">
+          <g
+             transform="translate(305.748,148.214)"
+             id="g38355">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 v 0.25 c 0.15625,0 0.625,0 1,-0.1875 v 3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 H 0.8125 V 0 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 V -0.25 H 3.03125 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="id-53347404-9ba1-4666-a6be-4678b08e8c5f" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.75159836,0,0,0.64901154,47.779248,63.723834)"
+       ns4:version="1.8.2"
+       ns4:texconverter="pdflatex"
+       ns4:pdfconverter="inkscape"
+       ns4:text="$$\\mathbf{b}_1$$"
+       ns4:preamble="/home/vchirag24/.config/inkscape/extensions/textext/default_packages.tex"
+       ns4:scale="1.0"
+       ns4:alignment="middle center"
+       ns4:stroke-to-path="0"
+       ns4:jacobian_sqrt="0.352778"
+       id="g38522"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <defs
+         id="id-63432211-cfea-4047-b882-b1d16fcf7918">
+        <g
+           id="id-4a3dc356-4202-48cc-930b-9a83211c4644">
+          <symbol
+             overflow="visible"
+             id="id-ed43c892-6f29-47fd-a689-212d624f6ad8">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-67197e49-7bd2-4a0c-a230-f38fd8fec69c" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-4f23de3b-b7ed-4bde-b75f-0d1a9a0cdd9b">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 2.140625,-4 V -6.921875 L 0.375,-6.84375 V -6.375 c 0.609375,0 0.6875,0 0.6875,0.390625 V 0 h 0.46875 l 0.484375,-0.5625 c 0.078125,0.078125 0.5625,0.625 1.453125,0.625 1.484375,0 2.515625,-0.90625 2.515625,-2.28125 0,-1.328125 -0.9375,-2.265625 -2.390625,-2.265625 C 2.875,-4.484375 2.375,-4.203125 2.140625,-4 Z M 2.1875,-0.984375 v -2.5 C 2.46875,-3.84375 2.9375,-4.125 3.484375,-4.125 c 1.21875,0 1.21875,1.203125 1.21875,1.90625 0,0.46875 0,1.015625 -0.25,1.40625 -0.296875,0.40625 -0.75,0.515625 -1.078125,0.515625 -0.6875,0 -1.078125,-0.546875 -1.1875,-0.6875 z m 0,0"
+               id="id-1df51fd0-6a0b-47b6-86ea-7ed0f144bc6a" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-4dfb2fd3-2f27-48a0-a2ca-90fd30be3fee">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-7293be6f-ebd3-4d4b-8916-90e02ba88c0c" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-95165775-4716-4863-b204-c35af3c2ed5c">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 v 0.25 c 0.15625,0 0.625,0 1,-0.1875 v 3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 H 0.8125 V 0 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 V -0.25 H 3.03125 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="id-f28f59e9-b00d-4d99-9d74-24b0fdb9f86c" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="id-06eaa5b2-d26c-4dcc-b205-52bc9fcf33bc"
+         transform="translate(-300.582,-139.798)">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-6bd5542a-67a3-4fbe-8c10-9adcd2b0af93">
+          <g
+             transform="translate(300.207,146.72)"
+             id="g38514">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 2.140625,-4 V -6.921875 L 0.375,-6.84375 V -6.375 c 0.609375,0 0.6875,0 0.6875,0.390625 V 0 h 0.46875 l 0.484375,-0.5625 c 0.078125,0.078125 0.5625,0.625 1.453125,0.625 1.484375,0 2.515625,-0.90625 2.515625,-2.28125 0,-1.328125 -0.9375,-2.265625 -2.390625,-2.265625 C 2.875,-4.484375 2.375,-4.203125 2.140625,-4 Z M 2.1875,-0.984375 v -2.5 C 2.46875,-3.84375 2.9375,-4.125 3.484375,-4.125 c 1.21875,0 1.21875,1.203125 1.21875,1.90625 0,0.46875 0,1.015625 -0.25,1.40625 -0.296875,0.40625 -0.75,0.515625 -1.078125,0.515625 -0.6875,0 -1.078125,-0.546875 -1.1875,-0.6875 z m 0,0"
+               id="id-b814bf6f-d890-47f7-8ea7-2dc7d8105b85" />
+          </g>
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-032ce23c-fb0c-4541-92a0-4148a794de6e">
+          <g
+             transform="translate(306.572,148.214)"
+             id="g38518">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 v 0.25 c 0.15625,0 0.625,0 1,-0.1875 v 3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 H 0.8125 V 0 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 V -0.25 H 3.03125 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="id-61a0c212-a18e-4432-8dd8-34cdc3f89466" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.352778,0,0,0.35149096,74.696189,82.078993)"
+       ns4:version="1.8.2"
+       ns4:texconverter="pdflatex"
+       ns4:pdfconverter="inkscape"
+       ns4:text="$$\\mathbf{b}_2$$"
+       ns4:preamble="/home/vchirag24/.config/inkscape/extensions/textext/default_packages.tex"
+       ns4:scale="1.0"
+       ns4:alignment="middle center"
+       ns4:stroke-to-path="0"
+       ns4:jacobian_sqrt="0.352778"
+       id="g38721"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400">
+      <defs
+         id="id-82bb5306-b6f0-4f0d-aa48-f67053f1c83e">
+        <g
+           id="id-6879a280-b14b-4fbe-950a-f43978d6ab35">
+          <symbol
+             overflow="visible"
+             id="id-5689c2c7-ce4e-48b0-abb6-eabf0cdd4383">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-043aa2ce-5726-4390-b84c-569b1f0654ef" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-2ac68b52-c1ec-41e0-8e3e-2d5c69b449d1">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 2.140625,-4 V -6.921875 L 0.375,-6.84375 V -6.375 c 0.609375,0 0.6875,0 0.6875,0.390625 V 0 h 0.46875 l 0.484375,-0.5625 c 0.078125,0.078125 0.5625,0.625 1.453125,0.625 1.484375,0 2.515625,-0.90625 2.515625,-2.28125 0,-1.328125 -0.9375,-2.265625 -2.390625,-2.265625 C 2.875,-4.484375 2.375,-4.203125 2.140625,-4 Z M 2.1875,-0.984375 v -2.5 C 2.46875,-3.84375 2.9375,-4.125 3.484375,-4.125 c 1.21875,0 1.21875,1.203125 1.21875,1.90625 0,0.46875 0,1.015625 -0.25,1.40625 -0.296875,0.40625 -0.75,0.515625 -1.078125,0.515625 -0.6875,0 -1.078125,-0.546875 -1.1875,-0.6875 z m 0,0"
+               id="id-d5053a8d-467e-4d60-a31a-94a5a5700457" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-4146decf-a7ba-4ec7-b7f4-02b298c5bf19">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-4760872e-e44b-4a14-aeec-5e04a486230b" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-43d179a9-96b4-4bb7-8f63-0e4f73e3b5ea">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 3.515625,-1.265625 H 3.28125 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 C 3.046875,-0.59375 2.515625,-0.59375 2.40625,-0.59375 H 1.125 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 h 2.875 z m 0,0"
+               id="id-bda68b50-8bb3-46fb-b24f-84398e4638f5" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="id-7b6a4823-b191-4cb2-8928-56408e5565b0"
+         transform="matrix(2.0814848,0,0,1.846453,-625.65688,-258.13054)">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-691b9796-e07a-4b93-af12-d7c1886322bb">
+          <g
+             transform="translate(300.207,146.72)"
+             id="g38713">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 2.140625,-4 V -6.921875 L 0.375,-6.84375 V -6.375 c 0.609375,0 0.6875,0 0.6875,0.390625 V 0 h 0.46875 l 0.484375,-0.5625 c 0.078125,0.078125 0.5625,0.625 1.453125,0.625 1.484375,0 2.515625,-0.90625 2.515625,-2.28125 0,-1.328125 -0.9375,-2.265625 -2.390625,-2.265625 C 2.875,-4.484375 2.375,-4.203125 2.140625,-4 Z M 2.1875,-0.984375 v -2.5 C 2.46875,-3.84375 2.9375,-4.125 3.484375,-4.125 c 1.21875,0 1.21875,1.203125 1.21875,1.90625 0,0.46875 0,1.015625 -0.25,1.40625 -0.296875,0.40625 -0.75,0.515625 -1.078125,0.515625 -0.6875,0 -1.078125,-0.546875 -1.1875,-0.6875 z m 0,0"
+               id="id-d2bd4de9-a877-4faf-95c7-cc3a4544e2c7" />
+          </g>
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="id-18340760-570a-432f-9d1f-5339eb705d0a">
+          <g
+             transform="translate(306.572,148.214)"
+             id="g38717">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 3.515625,-1.265625 H 3.28125 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 C 3.046875,-0.59375 2.515625,-0.59375 2.40625,-0.59375 H 1.125 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 h 2.875 z m 0,0"
+               id="id-dbeb8b7d-ce44-42a4-a226-cc4cadf861c1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:7.38457px;line-height:1.25;font-family:sans-serif;stroke-width:0.461536"
+       x="79.728195"
+       y="66.006935"
+       id="text29156-62-2-9"
+       transform="scale(0.98444479,1.015801)"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan29154-6-3-2"
+         style="stroke-width:0.461536"
+         x="79.728195"
+         y="66.006935">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.38457px;line-height:1.25;font-family:sans-serif;stroke-width:0.461536"
+       x="107.4963"
+       y="48.888073"
+       id="text29156-62-2-2"
+       transform="scale(0.98444479,1.015801)"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan29154-6-3-8"
+         style="stroke-width:0.461536"
+         x="107.4963"
+         y="48.888073">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.38457px;line-height:1.25;font-family:sans-serif;stroke-width:0.461536"
+       x="159.66435"
+       y="69.444496"
+       id="text29156-62-2-97"
+       transform="scale(0.98444479,1.015801)"
+       inkscape:export-filename="/home/vchirag24/Documents/notes/polymer_physics/imgs/2025_04_16/discrete_chain_model.png"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400"><tspan
+         sodipodi:role="line"
+         id="tspan29154-6-3-3"
+         style="stroke-width:0.461536"
+         x="159.66435"
+         y="69.444496">N</tspan></text>
+  </g>
+</svg>

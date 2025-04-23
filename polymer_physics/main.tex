@@ -1,0 +1,234 @@
+% -------------------------------------------------------------
+%
+% LaTeX UG Workshop - Engineering MEng/BEng
+% School of Engineering - The University of Edinburgh
+% www.eng.ed.ac.uk / www.ed.ac.uk
+%
+% -------------------------------------------------------------
+% ver 4.5, Oct-2024  (c) F. Teixeira-Dias, Maisie Edwards-Mowforth
+%
+% Acknowledgements: Anna Garcia-Teruel, James Young, Sam Thompson, 
+%                   Katie McGill, Neil Buchanan 
+% -------------------------------------------------------------
+%
+% NOTE: Please note that this is NOT an official thesis 
+% template. You should check your thesis/dissertation handbook 
+% to ensure all structure and format requirements are met.
+%
+% -------------------------------------------------------------
+%
+% Suggested reading before you start writing your dissertation:
+% T. Bruce, W.J. Easson, "Structure of a technical report", The
+% University of Edinburgh, 2012
+%
+% -------------------------------------------------------------
+\documentclass[11pt,                                          % Main text font size
+               a4paper,                                       % Paper size
+               openany,                                                    oneside]{report}                               % Print two-sided, LaTeX 'report' template
+
+% -------------------------------------------------------------
+% PACKAGES - Only load if necessary / used
+% -------------------------------------------------------------x
+\usepackage{microtype}                                        % Tweak font spacing for aesthetics
+%\usepackage{cmbright}                                         % SS font - Comment this line for LaTeX base font
+\usepackage[utf8]{inputenc}                                   % Includes letters with accents
+\usepackage[T1]{fontenc}  
+\usepackage{floatrow}        
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+\usepackage{lmodern}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}       % Hyper-references in PDF (e.g. urlcolor=blue)
+
+\usepackage{fancyhdr}                                         % Headers and footers
+\usepackage{amsmath}                                          % Standard maths
+\usepackage{nicematrix}
+
+\usepackage{amssymb}                                          % Standard maths symbols
+\usepackage{graphicx}                                         % Include graphics
+\usepackage{booktabs}                                         % Professional tables
+\usepackage[english]{babel}                                   % Babel and language definitions
+\usepackage[a4paper,                                          % Paper size
+            top = 35mm,                                       % Top margin
+            bottom = 25mm,                                    % Bottom margin
+            left = 25mm,                                      % Left margin
+            right = 25mm]{geometry}                           % Right margin
+\usepackage{nomencl}                                          % Include nomenclature
+\usepackage[page,toc,titletoc,title]{appendix}                % Include appendixes
+\usepackage{csquotes}                                         % For inline and display quotations
+\usepackage{lipsum}                                           % Generate automatic text - Lorem Ipsum
+\usepackage{tabularx}
+
+
+\usepackage{moreverb}                                         % Output for word and character count
+\usepackage{tcolorbox}                                        % Coloured boxes
+\usepackage{xcolor}   
+\usepackage{subcaption}
+
+\usepackage{longtable}
+\usepackage{soul}                                             % Highlight text and other text things
+\usepackage{caption}                                          % Manage captions in floats
+\usepackage{chemfig,chemformula}                              % Use chemistry formulae
+\usepackage{pgfgantt}                                         % Use a Gantt chart
+\usepackage{pdflscape}                                        % Landscape pages
+\usepackage{cite}                                             % Compressed and sorted lists of citations
+\usepackage{listings}                                         % Displayed code
+\usepackage{siunitx}                                          % Easy unit control
+\usepackage{listings}
+\usepackage[linesnumbered,ruled, noend]{algorithm2e}
+
+\usepackage{titlesec}
+\lstset{
+	language=Python,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{red},
+	commentstyle=\color{gray},
+	stringstyle=\color{blue},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	breaklines=true,
+	frame=single,
+	tabsize=4,
+	showstringspaces=false
+}
+
+% Remove chapter page breaks and format like sections
+\titleclass{\chapter}{straight}  % Treat chapters as run-in sections
+\titleformat{\chapter}[hang]     % Use 'hang' style like sections
+{\normalfont\bfseries\Large}   % Formatting (same as your sections)
+{\thechapter.\quad}            % Chapter number with spacing
+{0pt}                         % No separation between number and title
+{}                            % No code after title
+
+% Adjust spacing (same as your section spacing)
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% Remove chapter from header (optional)
+\renewcommand{\chaptermark}[1]{\markboth{}{}}  % Empty chapter mark
+% -------------------------------------------------------------
+% USER VARIABLES AND DEFINITIONS                              % EDIT THIS SECTION
+% -------------------------------------------------------------
+%\newcommand{}{}
+\newcommand{\theTitle}{Soft Matter and Polymer Physics}            % Thesis title
+\newcommand{\runningTitle}{-}                % Short title for headers
+\newcommand{\theAuthor}{}                  % Author name
+\newcommand{\theSupervisor}{}                    % Name of supervisor
+\newcommand{\mrm}[1]{\mathrm{#1}}
+\newcommand{\al}{\alpha}
+
+\definecolor{mygreen}{RGB}{28,130,0}                          % Define your own colours
+\definecolor{ocre}{RGB}{45,105,145} 
+\definecolor{barblue}{RGB}{153,204,254}                       % Used in Gantt chart
+\definecolor{groupblue}{RGB}{51,102,254}                      % Used in Gantt chart
+\definecolor{linkred}{RGB}{165,0,33}                          % Used in Gantt chart
+
+\captionsetup[table]{skip=6pt}                                % Gap between captions and tables
+\graphicspath{{imgs/}}                                      % Path to folder where pictures are stored
+\makenomenclature                                             % Create a nomenclature
+\setlength{\nomlabelwidth}{10mm}                              % Set width of nomenclature label
+\setlength{\headheight}{14pt}                                 % Minimum hadhight length
+
+% -------------------------------------------------------------
+% NOTATION AND ACRONYMS (DEFINITIONS)
+% -------------------------------------------------------------
+\newcommand{\notitem}[2]{{$#1$} & {~ -- ~ #2}}
+\newcommand{\acritem}[2]{{#1} & {~ -- ~ #2}}
+
+% -------------------------------------------------------------
+% HEADERS AND FOOTERS
+% -------------------------------------------------------------
+\fancyhead[L]{\slshape\nouppercase{\rightmark}}              % Section title on left
+\fancyhead[R]{\slshape\nouppercase{\leftmark}}               % Chapter title on right
+\fancyfoot[C]{\thepage}                                 % Footer right-odd and left-even: page number
+%\fancyfoot[LE,RE]{\thepage}                                  % Footer right-odd and left-even: page number
+%\fancyfoot[R]{\thepage}                                      % Footer right-odd and left-even: page number
+\fancyfoot[CE,CO]{}                                           % Footer centre-odd and centre-even: empty
+\fancyfoot[LO,RE]{\theAuthor}                                 % Footer left-odd and right-even: author name
+%\fancyfoot[L]{\theAuthor}                                    % Footer left-odd and right-even: author name
+
+% ------------------------------------------------------------------
+% DATA PLOTTING AND SETTINGS
+% ------------------------------------------------------------------
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{calc,backgrounds,matrix}
+\usetikzlibrary{shapes,arrows,shapes.multipart}                % For flowcharts, diagrams etc
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}                                    % Generates table from .csv
+\pgfplotsset{compat=newest}
+\usetikzlibrary{shapes,positioning,intersections,quotes,fit,patterns}
+\usepgfplotslibrary{patchplots}
+\pgfplotsset{compat = 1.15}
+\pgfplotsset{
+        tick scale binop=\times,                              % Use times sign for scale/axis
+        tick label style={font=\footnotesize},                % Font size for tick labels
+        label style={font=\footnotesize},                     % Font size for axis labels
+        legend style={draw=none, legend cell align=left, font=\footnotesize}, % Legend style definitions
+        grid style={line width=.1pt, draw=gray!10},           % Minor gridlines settings
+        major grid style={line width=.2pt,draw=gray!50},      % Major gridline settings
+        grid=both,                                            % Gridline selection
+        minor tick num = 5,                                   % Number of minor ticks
+        ymajorgrids=true, xmajorgrids=true,                   % Activate X, Y, grids
+        every x tick scale label/.style={at={(xticklabel cs:0.9,5pt)},right,inner sep=0pt},
+}
+\usepgfplotslibrary{groupplots}                               % For group plots
+\usetikzlibrary{pgfplots.groupplots}                          % For group plots 
+\setlength\parindent{0pt}
+
+% -------------------------------------------------------------
+% START DOCUMENT CONTENT
+% -------------------------------------------------------------
+\begin{document}                                              % Start document
+
+% -------------------------------------------------------------
+% COVER PAGE
+% -------------------------------------------------------------
+\begin{titlepage}                                             % Create cover page
+\pagestyle{empty}                                             % No headers or footers on cover
+\centering                                                    % Centre all contents on cover page
+
+%\includegraphics[width=0.14\linewidth]{imgs/logo/mpi.jpg}\hspace*{1cm}~%
+%\includegraphics[width=0.14\linewidth]{imgs/logo/mtl.png}\hspace*{1cm}~%
+%\includegraphics[width=0.14\linewidth]{imgs/logo/goe.png}\hspace*{1cm}~%
+%\includegraphics[width=0.28\linewidth]{imgs/logo/hei.png}
+
+
+\vspace{3cm}                                                 % Vertical space
+\hrule\vspace{5mm}                                            % Horizontal rule above title
+{\LARGE \textbf{{\theTitle}}} \\           % The title of the thesis
+\vspace{2mm}\hrule\vspace{1cm}
+\vspace{2cm}
+%{\large \underline{Author}: \theAuthor} \\ \vspace{2cm}                           % The author
+\large \underline{:}: \\ \vspace{0.2cm}
+\vfill                                                        
+\cleardoublepage                                              % Go to next odd page
+\end{titlepage}
+
+% -------------------------------------------------------------
+% FRONTMATTER
+% -------------------------------------------------------------
+\pagenumbering{roman}                                         % Roman page numbering for preamble
+\setcounter{page}{1}                                          % Start page counter
+
+\tableofcontents                                              % Add table of contents
+\newpage
+
+% -------------------------------------------------------------
+% LISTS OF FIGURES AND TABLES
+% -------------------------------------------------------------
+%\listoffigures                                                % Add list of figures
+%\listoftables                                                 % Add list of tables
+%\listofalgorithms
+
+% -------------------------------------------------------------
+% CHAPTER
+% -------------------------------------------------------------
+\pagestyle{plain} 
+\pagenumbering{arabic}                                        % Change age numbering to arabic
+
+
+\chapter{2025\_04\_23}
+\end{document}
+
+
+
+

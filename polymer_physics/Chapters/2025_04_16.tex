@@ -1,0 +1,12 @@
+A biological cell is a conglomerate of many interacting biochemical components organised in sub-units. Recently, it has been established that a cell employs phase separation \cite{alberti_phase_2017} to organise itself spatially and form membrane-less compartments (see Figure \ref{fig:phase_sep}). These membrane-less compartments can adapt to external stress, help regulate genes or even cause some neurodegenerative diseases \cite{dolgin_what_2018, hyman_liquid-liquid_2014}. Hence, it becomes increasingly important to study under what conditions such membrane-less compartments form and function. Estimating their free energies serves as a good starting point.\\
+
+\begin{figure}[h!]	\includegraphics[width=0.25\linewidth]{imgs/intro/phase_sep.png}
+	\caption{Phase separation in nucleoli of X. \textit{laevis}. Adapted from \cite{feric_coexisting_2016, dolgin_how_2024}.}
+	\label{fig:phase_sep}
+\end{figure}
+
+The Flory-Huggins formulation can be used to study the free energies of phase-separating materials. This formulation is often used to study systems with two components \cite{rubinstein_polymer_2003}. Extending it to multiple interacting components is straightforward and allows one to model a cell as numerous phase-separated compartments. However, the dimensionality of the corresponding free energy landscape scales accordingly. Several methods have been developed to study phase coexistence but are still limited to a few components \cite{sch2023, mao_phase_2019}.\\
+
+This report explores methods to sample the free energy landscape of a system with $n$ components and $m$-distinct compartments, whereby a compartment is a spatial domain with constant concentrations of each component. We also propose a general method for systematically reducing the landscape's dimensionality. We illustrate the method in the light of elementary systems but with considerably high dimensionality of the free energy landscape..\\
+
+The remainder of this report is structured as follows: Section 2 briefly outlines the underlying theory of Flory-Huggins' free energy formulation and its extension to multi-phase systems. Following this, the approach of sampling free-energy landscapes with a simple random walk is introduced. We then describe our approach to reduce the dimensions of an $n$-component system. Section 3 shows the results from our methods for particular example systems. Lastly, section 4 discusses further steps in light of the results obtained.
